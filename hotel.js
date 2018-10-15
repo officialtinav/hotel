@@ -1,3 +1,4 @@
+//make variables for name and guest arrays
 var arrName = [];
 var arrGuest = [];
 var arrName2 = [];
@@ -13,20 +14,19 @@ var arrGuest6 = [];
 
 
 function addName() {
-  //total++; //adds one everytime you presses a button
   //get name from guest
   var name = document.getElementById('name').value;
- //clear the input box
+ //erase the input box
   document.getElementById('name').value = "";
  //unshift the name to arrName
  document.getElementsByTagName('h3')[0].innerHTML = "Room 1";
   
-if (arrName.length < 5) { //if the length is less than 6, display room filled and put people in waitlist
+if (arrName.length < 5) { //names less than 6 then waitlist
    arrName.unshift(name);
    arrGuest.unshift(name);
-  //create element for li
+  //create element for li list
   var li = document.createElement('li');
-  //take entered name and stores it as liText
+  //take entered name and stores it as liText (list)
   var d = new Date();
   var liText = document.createTextNode(name + " ("+ "Checked in: " + d.toUTCString() + ")");
   //append text to li
@@ -52,7 +52,7 @@ else {
  //unshift the name to arrName
  document.getElementsByTagName('h3')[1].innerHTML = "Room 2";
   
-if (arrName2.length < 5) { //if the length is less than 6, display room filled and put people in waitlist
+if (arrName2.length < 5) {
    arrName2.unshift(name);
    arrGuest2.unshift(name);
   //create element for li
@@ -84,7 +84,7 @@ function addName3(){
  //unshift the name to arrName
  document.getElementsByTagName('h3')[2].innerHTML = "Room 3";
   
-if (arrName3.length < 5) { //if the length is less than 6, display room filled and put people in waitlist
+if (arrName3.length < 5) {
    arrName3.unshift(name);
    arrGuest3.unshift(name);
   //create element for li
@@ -116,7 +116,7 @@ function addName4(){
  //unshift the name to arrName
  document.getElementsByTagName('h3')[3].innerHTML = "Room 4";
   
-if (arrName4.length < 5) { //if the length is less than 6, display room filled and put people in waitlist
+if (arrName4.length < 5) {
    arrName4.unshift(name);
    arrGuest4.unshift(name);
   //create element for li
@@ -148,7 +148,7 @@ function addName5(){
  //unshift the name to arrName
  document.getElementsByTagName('h3')[4].innerHTML = "Room 5";
   
-if (arrName5.length < 5) { //if the length is less than 6, display room filled and put people in waitlist
+if (arrName5.length < 5) {
    arrName5.unshift(name);
    arrGuest5.unshift(name);
   //create element for li
@@ -180,7 +180,7 @@ function addName6(){
  //unshift the name to arrName
  document.getElementsByTagName('h3')[5].innerHTML = "Room 6";
   
-if (arrGuest6.length < 5) { //if the length is less than 6, display room filled and put people in waitlist
+if (arrGuest6.length < 5) {
    arrName6.unshift(name);
    arrGuest6.unshift(name);
   //create element for li

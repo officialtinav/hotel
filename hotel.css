@@ -2,32 +2,43 @@
     float:left;
     border-style: outset;
     margin-right: 17px;
+    border-radius: 15px;
+    text-shadow: 3px 3px 6px grey;
    }
    
 #SecondRoom{
     float:left;
-     border-style: outset;
-      margin-right: 17px;
+    border-style: outset;
+    margin-right: 17px;
+    border-radius: 15px;
+    text-shadow: 3px 3px 6px grey;
    }
    
 #ThirdRoom{
     float:left;
-     border-style: outset;
-      margin-right: 17px;
+    border-style: outset;
+    margin-right: 17px;
+    border-radius: 15px;
+    text-shadow: 3px 3px 6px grey;
    }
 #FourthRoom{
     float:left;
-     border-style: outset;
-      margin-right: 17px;
+    border-style: outset;
+    margin-right: 17px;
+    border-radius: 15px;
+    text-shadow: 3px 3px 6px grey;
    }
 #FifthRoom{
     float:left;
-     border-style: outset;
-      margin-right: 17px;
+    border-style: outset;
+    margin-right: 17px;
+    border-radius: 15px;
+    text-shadow: 3px 3px 6px grey;
+    position: static;
    }
 #SixthRoom{
     float:left;
-     border-style: outset;
-     margin-bottom: 40px;
+    border-style: outset;
+    border-radius: 15px;
+    text-shadow: 3px 3px 6px grey;
    }
-
