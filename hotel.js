@@ -1,7 +1,9 @@
 //make variables for name and guest arrays
 var arrName = [];
 var arrGuest = [];
+//names are id's
 var arrName2 = [];
+//gather guests
 var arrGuest2 = [];
 var arrName3 = [];
 var arrGuest3 = [];
